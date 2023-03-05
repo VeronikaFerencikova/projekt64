@@ -17,6 +17,6 @@ def calculator(vyska, sirka, plechovky):
     pocet_plechovek = plocha / pokryti
     # zaokrouhlení výpočetu
     pocet_plechovek = math.ceil(plocha / pokryti)
-    print(pocet_plechovek)
+    print(f"Budete potřebovat {pocet_plechovek} plechovek.")
 
 calculator(vyska=vyska_zdi, sirka=sirka_zdi, plechovky=pokryti)
