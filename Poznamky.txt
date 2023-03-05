@@ -4,3 +4,5 @@
 3. Jak by to mělo fungovat?
 4. Musíme výsledek zaokrouhlit na horu!
 5. Musíme postupovat přes funkci (kde budou parametry).
+
+Pozn.: Jedna plechovka barvy pokryje 5m2
