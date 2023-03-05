@@ -3,7 +3,15 @@ vyska_zdi = input("Zadej výšku zdi v metrech:\n")
 sirka_zdi = input("Zadej šířku zdi v metrech:\n")
 pokryti = 5
 
-# vypočet plochy zdi
-vypocet_plochy = int(vyska_zdi) * int(sirka_zdi)
-print(vypocet_plochy)
+# vypočet plochy zdi - bez použití funkce
+# vypocet_plochy = int(vyska_zdi) * int(sirka_zdi)
+# print(vypocet_plochy)
 
+# vypočet plochy zdi s pouzitím funkce
+def calculator(vyska, sirka, plechovky):
+    # jak velká je stěna (m2)
+    plocha = int(vyska) * int(sirka)
+    pocet_plechovek = plocha / pokryti
+    print(pocet_plechovek)
+
+print(calculator(vyska=vyska_zdi, sirka=sirka_zdi, plechovky=pokryti))
