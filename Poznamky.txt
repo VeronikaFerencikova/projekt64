@@ -1,0 +1,6 @@
+# Úkol: Kalkulátor nabírací plochy - procvičování
+1. Zadáme výšku zdi, šířku zdi, vše v metrech
+2. Kolik budu potřebovat plechovek barvy?
+3. Jak by to mělo fungovat?
+4. Musíme výsledek zaokrouhlit na horu!
+5. Musíme postupovat přes funkci (kde budou parametry).
