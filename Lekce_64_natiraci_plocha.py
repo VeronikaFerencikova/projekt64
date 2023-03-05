@@ -1,3 +1,6 @@
+
+import math
+
 # načteme hodnoty od uživatele
 vyska_zdi = input("Zadej výšku zdi v metrech:\n")
 sirka_zdi = input("Zadej šířku zdi v metrech:\n")
@@ -12,6 +15,8 @@ def calculator(vyska, sirka, plechovky):
     # jak velká je stěna (m2)
     plocha = int(vyska) * int(sirka)
     pocet_plechovek = plocha / pokryti
+    # zaokrouhlení výpočetu
+    pocet_plechovek = math.ceil(plocha / pokryti)
     print(pocet_plechovek)
 
-print(calculator(vyska=vyska_zdi, sirka=sirka_zdi, plechovky=pokryti))
+calculator(vyska=vyska_zdi, sirka=sirka_zdi, plechovky=pokryti)
